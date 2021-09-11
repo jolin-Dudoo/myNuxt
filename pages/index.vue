@@ -1,7 +1,11 @@
 <template>
-  <Tutorial/>
+  <!-- <Tutorial/> -->
+  <h1> 我是主頁</h1>
 </template>
 
 <script>
-export default {}
+export default {
+layout:'normal'
+
+}
 </script>

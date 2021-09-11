@@ -1,0 +1,17 @@
+import Vue from 'vue'
+import Router from 'vue-router'
+Vue.use(Router)
+
+export function createRouter() {
+  return new Router({
+    mode: 'history',
+    routes: [
+      {
+        path: '/chat', // 設定其他頁面，網址後面後的query
+        name: 'chatting_room', // name可有可無，但在router切換頗方便
+        component: require('~/pages/chat').default // 指定這個router要引用哪個page
+      },
+      // {...看還要加啥}
+    ]
+  })
+}
