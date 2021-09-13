@@ -1,3 +1,8 @@
+#link_pages {
+  display: flex;
+  flex-direction: column;
+}
+
 .title_main {
   color: red;
 }
