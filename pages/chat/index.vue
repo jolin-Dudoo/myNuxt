@@ -29,5 +29,5 @@ export default ({
 })
 </script>
 <style>
-  @import 'assets/css/style.min.css';
+  /* @import 'assets/css/style.min.css'; */
 </style>
