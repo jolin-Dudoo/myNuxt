@@ -1,7 +1,7 @@
 <template>
   <div id="normal">
     <b-navbar toggleable="lg" type="dark" variant="danger">
-    <b-navbar-brand href="#">myNuxt主頁</b-navbar-brand>
+    <b-navbar-brand href="#">myNuxt主頁（錯誤頁面 layout)</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
