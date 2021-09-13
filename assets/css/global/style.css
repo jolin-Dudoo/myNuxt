@@ -9,4 +9,11 @@
 
 .title_sub {
   color: #008585;
+}
+
+.wrap_error {
+  color: plum;
+  font-size: 120%;
+  font-weight: bolder;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
