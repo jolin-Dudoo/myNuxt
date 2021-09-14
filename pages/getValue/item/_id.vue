@@ -2,8 +2,8 @@
 
 <template>
 
-    <div>
-        <h2>商品內容</h2>
+     <div class="wrap_Main">
+        <h2>商品內容(從URL接收一個參數)</h2>
         <hr>
         <div v-if="this.$route.params.id">
             商品ID {{this.$route.params.id}}

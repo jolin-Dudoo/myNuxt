@@ -10,6 +10,7 @@
         <b-nav-item href="/">首頁</b-nav-item>
         <b-nav-item href="/article/content">內文</b-nav-item>
         <b-nav-item href="/article/list">列表範例</b-nav-item>
+        <b-nav-item href="/getValue/">URL資料傳遞</b-nav-item>
         <b-nav-item href="about">關於我</b-nav-item>
         <!-- <b-nav-item href="#" disabled>Disabled</b-nav-item> -->
       </b-navbar-nav>

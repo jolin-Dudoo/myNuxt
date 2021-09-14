@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="wrap_Main">
         <h2>Here is List</h2>
         <ol>
             <li>Get Start With Nuxt</li>
