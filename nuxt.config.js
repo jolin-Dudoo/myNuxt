@@ -1,7 +1,8 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'myNuxt',
+    title: 'myNuxt_Pratice',
+    baseUrl:'/',
     htmlAttrs: {
       lang: 'en'
     },
@@ -14,16 +15,24 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     // Load a Node.js module directly (here it's a Sass file)
-    'bulma',
+    // 'bulma',
     // CSS file in the project
-    '~/assets/css/main.css',
+    '~/assets/css/global/style.min.css',
     // SCSS file in the project
-    '~/assets/css/main.scss'
+    // '~/assets/css/global/style.scss',
+    // 載入fontawesome樣式
+    // '@fortawesome/fontawesome-svg-core/styles.css',
+    // 載入bootstrap
+    // 'bootstrap/scss/bootstrap.scss',
+    // 'bootstrap-vue/dist/bootstrap-vue.css',
+    // 載入highlight.js樣式
+    // 'highlight.js/styles/zenburn.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -45,6 +54,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'bootstrap-vue/nuxt',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
